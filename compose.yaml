@@ -1,7 +1,6 @@
 services:
   nginx:
-    build:
-      dockerfile: Dockerfile
+    image: nginx:1.27.2
     ports:
       - "9085:9085"
     networks:
